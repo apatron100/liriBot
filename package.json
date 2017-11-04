@@ -1,0 +1,30 @@
+{
+  "name": "liriBot",
+  "version": "1.0.0",
+  "description": "get twitter, spotify, and ombd information",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apatron100/liriBot.git"
+  },
+  "keywords": [
+    "twitter",
+    "spotify",
+    "omdb",
+    "liri"
+  ],
+  "author": "apatron100",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apatron100/liriBot/issues"
+  },
+  "homepage": "https://github.com/apatron100/liriBot#readme",
+  "dependencies": {
+    "node-omdb": "^1.0.1",
+    "node-spotify-api": "^1.0.7",
+    "node-twitter": "^0.5.3"
+  }
+}
